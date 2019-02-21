@@ -1,0 +1,121 @@
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Your name</title>
+    <style type="text/css">
+      body{
+        background-image: url('img/wallnasa.png'); 
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">CLima</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="curriculum.html">Curriculum</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pelicula.html">Pelicula
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="nasa.html">Nasa
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+<section class="sectionform">
+    <div class="container">
+         <div class="main">
+        <div class="main-center">
+        <h5>Unete a nuestro equipo</h5>
+          <form class="" method="post" action="#">
+            <div class="form-group">
+              <label for="Nombre">Nombre</label>
+              <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-user fa-lg" aria-hidden="true"></i></span>
+                  </div>
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" aria-describedby="basic-addon1" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Correo">Correo</label>
+              <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></span>
+                  </div>
+                <input type="email" class="form-control" placeholder="Correo" aria-label="Correo" aria-describedby="basic-addon1" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Contraseña">Contraseña</label>
+              <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-key fa-lg" aria-hidden="true"></i></span>
+                  </div>
+                <input type="password" class="form-control" placeholder="Contraseña" aria-label="Contraseña" aria-describedby="basic-addon1" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Edad">Edad</label>
+              <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-user fa-lg" aria-hidden="true"></i></span>
+                  </div>
+                <input type="number" class="form-control" placeholder="Edad" aria-label="Edad" aria-describedby="basic-addon1" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Fecha">Fecha de nacimiento</label>
+              <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" ><i class="fa fa-calendar-week fa-lg" aria-hidden="true"></i></span>
+                  </div>
+                <input type="date" class="form-control" placeholder="fecha de nacimiento" aria-label="fecha" aria-describedby="basic-addon1" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Pais">Pais</label>
+              <select class="form-control" id="Pais">
+                <option>El Salvador</option>
+                <option>Brasil</option>
+                <option>Canada</option>
+                <option>Italia</option>
+                <option>Estados Unidos</option>
+              </select>
+            </div>
+
+            <button class="btn btn-light" type="submit">Inscribir</button> 
+          </form>
+        </div><!--main-center"-->
+      </div><!--main-->
+    </div>
+</section>
+</body>
+</html>
